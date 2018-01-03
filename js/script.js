@@ -1,3 +1,4 @@
+/*global $*/
 // Pig Latin takes the first consonant (or consonant cluster) of an English 
 // word, moves it to the end of the word and suffixes an ay, or if a word
 // begins with a vowel you just add ay to the end. For example, pig becomes
@@ -5,6 +6,23 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
+$("#me").click(function(){
+	var word = $("#input").val();
+	var first = word.charAt(0);
+	console.log;
+	var res = word.slice(1);
+	var tpt = word.split(" ");
+	
+	
+	if(first ===  "a"|| "e" || "i" || "o" || "u"){
+		$("#raa").html(word+"ay");
+	}
+	else if(first !== "a"|| "e" || "i" || "o" || "u"){
+	$("#raa").html(res+first+"ay");
+	}
+	
+});
+
 $( document ).ready(function() {
   
 
@@ -15,6 +33,9 @@ $( document ).ready(function() {
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
 
+function wordToPigLatin (){
+	
+}
 
 
 
