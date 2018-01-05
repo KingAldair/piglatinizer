@@ -8,19 +8,48 @@
 // Document Ready Function. All of your jQuery should go in here. 
 $("#me").click(function(){
 	var word = $("#input").val();
-	var first = word.charAt(0);
-	console.log;
-	var res = word.slice(1);
-	var tpt = word.split(" ");
+	var wordtwo= word.toLowerCase();
+	var first = wordtwo.charAt(0);
+	var res = wordtwo.slice(1);
+	var wordthree=wordtwo.split();
 	
-	
-	if(first ===  "a"|| "e" || "i" || "o" || "u"){
-		$("#raa").html(word+"ay");
+	$("#te").html(first);
+	$(".te").html(wordthree);
+
+	 if(first==="a"){
+		$("#raa").html(wordtwo+"ay");
+	} 
+	else if(first==="e"){
+		$("#raa").html(wordtwo+"ay");
 	}
-	else if(first !== "a"|| "e" || "i" || "o" || "u"){
-	$("#raa").html(res+first+"ay");
-	}
-	
+	else if(first==="i"){
+		$("#raa").html(wordtwo+"ay");
+	} 
+	else if(first==="o"){
+		$("#raa").html(wordtwo+"ay");
+	} 
+	else if(first=== "u"){
+		$("#raa").html(wordtwo+"ay");
+		}
+	else if(first!== "a"){
+
+		$("#raa").html(res+first+"ay");
+}
+	//if(first !==  "a"){
+	//	$("#raa").html(res+first+"ay");
+	//} 
+	//else if(first !== "e"){
+	//	$("#raa").html(res+first+"ay");
+	//}
+	//else if(first !== "i"){
+	//	$("#raa").html(res+first+"ay");
+	//} 
+	//else if(first !== "o"){
+	//	$("#raa").html(res+first+"ay");
+	//} 
+	//else if(first !== "u"){
+	//	$("#raa").html(res+first+"ay");
+	//	}
 });
 
 $( document ).ready(function() {
