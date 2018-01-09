@@ -6,53 +6,12 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
-$("#me").click(function(){
-	var word     =$("#input").val() ;
-	var slic     =word.split();
-	var forslic  =slic.forEach();
-	var wordtwo  =word.toLowerCase();
-	var first    =wordtwo.charAt(0);
-	var wordthree=wordtwo.split();
-	
-	
-	function piglaten(){
-		
-	$("#te").html(first);
-	$(".te").html(wordthree);
-	
-
-	 if(first==="a"){
-		$("#raa").html(forslic+"ay");
-	} 
-	else if(first==="e"){
-		$("#raa").html(forslic+"ay");
-	}
-	else if(first==="i"){
-		$("#raa").html(forslic+"ay");
-	} 
-	else if(first==="o"){
-		$("#raa").html(forslic+"ay");
-	} 
-	else if(first=== "u"){
-		$("#raa").html(forslic+"ay");
-		}
-	else if(first!== "a"){
-
-		$("#raa").html(res+first+"ay");
-}
-	}
-$( document ).ready(function() {
-  
-
-
-
-});
 
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
 
 function wordToPigLatin (){
-	
+	$("#te").append("ay");
 }
 
 
