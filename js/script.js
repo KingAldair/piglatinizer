@@ -6,12 +6,38 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
+$("#me").click(function(){
+
+//	var word     =$("#input").val() ;
+//	var word2	 =word.split(" ");
+	
+	
+var iceCreamSentence =$("#input").val() ;
+
+var spl= iceCreamSentence.split(" ");
+    
+for(var i=0; i<spl.length ; i=+1)
+{
+    $("#raa").html(spl[i] + "ay ");
+    }
+
+
+});
+
+
+
+$( document ).ready(function() {
+  
+
+
+
+});
 
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
 
 function wordToPigLatin (){
-	$("#te").append("ay");
+	
 }
 
 
