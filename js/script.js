@@ -6,23 +6,51 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
-$("#me").click(function(){
+//$("#me").click(function(){
 
 //	var word     =$("#input").val() ;
 //	var word2	 =word.split(" ");
 	
 	
-var iceCreamSentence =$("#input").val() ;
+//var iceCreamSentence =$("#input").val() ;
 
-var spl= iceCreamSentence.split(" ");
+//var spl= iceCreamSentence.split(" ");
     
-for(var i=0; i<spl.length ; i=+1)
-{
-    $("#raa").html(spl[i] + "ay ");
-    }
+//for(var i=0 ; i< spl.length ; i++)
+//{
+//    $("body").html(spl[i] + "ay ");
+  //  }
 
 
+//});
+//=====
+//$("#me").click(function(){
+    
+//var me = $("#input").val() ;
+
+//var pig= me.split(" ");
+    
+//for(var i=0; i<pig.length ;i++)
+//{
+   // $("h4").append( pig[i] + "ay");
+ //   }
+//});
+
+
+$("#me").click(function(){
+    
+var me = $("#input").val();
+
+var pigtran= me.split(" ");
+
+
+for(var i=0; i<pigtran.length ;i++)
+{  
+    $("h4").append( pigtran[i] + "ay");
+   }
 });
+
+
 
 
 
