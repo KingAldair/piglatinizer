@@ -7,7 +7,7 @@ $("#me").click(function(){
 
 
 	$("#te").html(first);
-	$(".te").html(wordthree);
+	$(".te").html(wordtwo);
 	
 	 if(first==="a"){
 		$("#raa").html(wordtwo+"ay");

@@ -22,38 +22,6 @@
   //  }
 
 
-//});
-//=====
-//$("#me").click(function(){
-    
-//var me = $("#input").val() ;
-
-//var pig= me.split(" ");
-    
-//for(var i=0; i<pig.length ;i++)
-//{
-   // $("h4").append( pig[i] + "ay");
- //   }
-//});
-
-
-$("#me").click(function(){
-    
-var me = $("#input").val();
-
-var pigtran= me.split(" ");
-
-
-for(var i=0; i<pigtran.length ;i++)
-{  
-    $("h4").append( pigtran[i] + "ay");
-   }
-});
-
-
-
-
-
 $( document ).ready(function() {
   
 
