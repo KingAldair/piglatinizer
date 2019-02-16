@@ -1,13 +1,9 @@
 /*global $*/
 
 
-<<<<<<< HEAD
-	$("#te").html(first);
-	$(".te").html(wordtwo);
-=======
-$("#two").click(function(){
->>>>>>> 4eb0cb6a0ebc48d631f7f572b5a0dc940235ec51
 	
+$("#two").click(function(){
+
 	var english= $("#one").val() ;
 	
 	var piglat= english.split(" ");
@@ -42,6 +38,8 @@ $("#two").click(function(){
 		console.log(piglat[i]);
 	
 	}
+	$("#te").html(first);
+	$(".te").html(wordtwo);
 });
 
 
